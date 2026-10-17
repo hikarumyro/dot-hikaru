@@ -1,0 +1,15 @@
+awww
+cliphist
+elephant
+grim
+hyprland
+hyprlock
+kitty
+mako
+polkit-gnome
+slurp
+ttf-jetbrains-mono-nerd
+walker
+waybar
+wl-clipboard
+wofi

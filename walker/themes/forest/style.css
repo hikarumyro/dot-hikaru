@@ -1,0 +1,44 @@
+@define-color window_bg_color #1d2021;
+@define-color accent_bg_color #a7c080;
+@define-color theme_fg_color #d3c6aa;
+@define-color error_bg_color #e67e80;
+@define-color error_fg_color #1d2021;
+
+* { all: unset; }
+
+.box-wrapper {
+    background: #1d2021;
+    color: #d3c6aa;
+    padding: 18px;
+    border-radius: 18px;
+    border: 1px solid #4f5b58;
+}
+
+.search-container {
+    background: #282e2b;
+    border: 1px solid #4f5b58;
+    border-radius: 12px;
+    padding: 4px;
+}
+
+.input {
+    background: transparent;
+    color: #d3c6aa;
+    caret-color: #a7c080;
+    padding: 12px;
+}
+
+.input placeholder { color: #7a8478; }
+.list { color: #d3c6aa; }
+.item-box { padding: 10px; border-radius: 10px; }
+child:selected .item-box,
+row:selected .item-box {
+    background: #3c4841;
+    border: 1px solid #a7c080;
+}
+.item-subtext { color: #a7a095; }
+.preview { border: 1px solid #4f5b58; border-radius: 12px; }
+.keybinds { color: #a7a095; }
+.keybind-button { color: #a7c080; }
+.keybind-label { color: #d3c6aa; border: 1px solid #4f5b58; }
+.error { background: #e67e80; color: #1d2021; padding: 8px; }
